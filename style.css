@@ -1,0 +1,251 @@
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+.navbar,.row1{
+    background-image: url('website.png');
+    background-size:     cover;                      
+    background-repeat:   no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.navbar{
+    width:100%;
+}
+
+.collapse,navbar-collapse{
+    padding-left: 43%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand,.name{
+    padding-left:3.5%;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+
+.small,.small2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+    margin-top: -20px;
+}
+
+.row1{
+    padding-top: 6.5%;
+    height:100%;
+    padding-bottom: 14%;
+}
+
+.col1{
+    display:flex;
+    flex-direction: column;
+    padding-left:3.5%;
+    max-width: 50%;
+}
+
+.poppins,.row{
+    font-family: 'Poppins', sans-serif;
+    font-size: 75%;
+}
+
+.russo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 6vw;
+    margin-left: -3px;
+    color:white;
+}
+
+.portfolio{
+    margin-top: -9%;
+    color:#00f0ff;
+}
+
+.line{
+    margin-bottom: 2%;
+    color:white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.display-row{
+    display:flex;
+    padding: 12px;
+}
+
+.row{
+    flex-basis: 30%;
+    color: white;
+}
+
+.navbar-toggler{
+    color: white !important;;
+}
+
+#scrollspyHeading2{
+    display:flex;
+    background-color: #031f21;
+    padding: 5%;
+    padding-bottom: 15%;
+}
+
+img{
+ width:50%;
+}
+
+.aboutme{
+    flex-basis:200%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+    color:white;
+    margin-left: -20%;
+}
+
+#scrollspyHeading3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+    color:white;
+    margin-left: -20%;
+    background-color: #031f21;
+    padding: 5%;
+}
+
+.who,.creative{
+    display:inline;
+    margin-right: 5%;
+    color:#00f0ff;
+}
+
+.ami,.works{
+    display: inline;
+}
+
+.about{
+    margin-bottom: 0;
+}
+
+.creative,.projects,.statement{
+    margin-left: 18%;
+}
+
+.card1{
+    margin-left: 32%;
+}
+
+.cards{
+    display: flex;
+}
+
+.card2{
+    margin-left: 17%;
+}
+
+#scrollspyHeading5{
+    display: flex;
+    background-color: #031f21;
+    padding: 5%;
+}
+
+.small2{
+    padding-left: 3.5%;
+    color:white;
+}
+
+.info,.info1{
+    padding-left: 3.5%;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+    width:40%;
+}
+
+.name1,.name2{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.name1,.info1,.mail{
+    margin-left: -20%;
+}
+
+.name2,.mail1{
+    padding-left: 20%;
+}
+
+.recent{
+    width:50%;
+    margin-left: 18%;
+    margin-top: -1%;
+}
+
+.projects{
+    font-size: 200%;
+}
+
+.insta{
+    padding-left:0%;
+    margin-right: -100;
+}
+
+.img{
+    background-color: #031f21;
+    padding-left: 50%;
+    margin-top:-7%;
+}
+
+@media (max-width:700px){
+    .display-row{
+        flex-direction: column;
+    }
+
+    #scrollspyHeading2{
+        flex-direction: column;
+        padding-left: 20%;
+    }
+
+    .about{
+        margin-bottom: -6%;
+        padding:3%;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card2{
+       margin-left: 23%;
+       margin-top: 40px;
+    }
+
+    .card1{
+        margin-left: 23%;
+    }
+
+    #scrollspyHeading5{
+        flex-direction: column;
+    }
+
+    .name,.small2,.info{
+        padding-left: 0;
+    }
+
+    .name1,.info1,.mail{
+        padding-left: 20%;
+    }
+
+    .name2,.mail1{
+        padding-left: 0;
+    }
+}
